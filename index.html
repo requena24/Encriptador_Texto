@@ -1,0 +1,57 @@
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Encriptador de Texto </title>
+        <link rel="shorcut icon" href="imagenes/datos-encriptados.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="imagenes/Logo.png" alt="Logo Alura" class="logo">
+            <h2 class="titulo">Encriptador de Texto</h2>
+        </header>
+        <main>
+            <section class="boxleft">
+                <textarea class="area" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="aviso">
+                    <img src="imagenes/aviso.png" alt="aviso" class="avisoimg">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <input type="button" class="btnencriptar" value="Encriptar">
+                    <input type="button" class="btndesencriptar" value="Desencriptar">
+                    <input type="button" class="limpiar" value="Limpiar">
+                </div>
+            </section>
+            <section class="boxright" class="animar">
+                <div class="muneco">
+                    <img src="imagenes/Muñeco.png" alt="Muneco">
+                </div>
+                <div class="textleft">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                </div>
+                <div class="parrafoleft">
+                    <p>Ingresa el texto que desees encriptar o descriptar</p>
+                </div>
+                <div class="resultado">
+                    <h3>Mensaje Encriptado:</h3>
+                    <p class="textoresultado"></p>
+                </div>
+                <div class="copiar">
+                    <input type="button" class="btncopiar" value="Copiar">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="autor">Elaborado por: Roberto Requena</p>
+            <a href="https://www.linkedin.com/in/robrequena/" class="linkedin" target="_blank"><img src="imagenes/linkedin.png" alt="Linkedin" class="linkedin"></a>
+            <a href="https://github.com/requena24" class="github" target="_blank"><img src="imagenes/github.png" alt="Github" class="github"></a>
+        </footer>
+
+        <script src="logica.js"></script>
+    </body>
+</html>
+

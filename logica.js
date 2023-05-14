@@ -97,4 +97,6 @@ const btnCopiar = document.querySelector(".btncopiar");
     btnCopiar.addEventListener("click", copiar = () => {
     var contenido = document.querySelector(".textoresultado").textContent;
     navigator.clipboard.writeText(contenido);
+    const elementoAResetear = document.querySelector(".area");
+    elementoAResetear.value = "";
 })

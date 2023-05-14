@@ -194,6 +194,7 @@ section{
     height: 70%;
     display: block;
     overflow: hidden;
+    text-transform: lowercase;
 }
 
 .copiar{

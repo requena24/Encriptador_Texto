@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body{
     background-color: #F2D06B; 
 }
@@ -184,6 +185,7 @@ section{
     position: relative;
     bottom: 60px;
     left: 40px;
+    font-size: 20px;
 }
 
 .textoresultado{

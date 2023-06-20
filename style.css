@@ -133,7 +133,7 @@ section{
 
 .limpiar:hover{
     transition-delay: 10ms;
-    box-shadow: 0px 0px 10px 5px #F24B59;
+    box-shadow: 0px 0px 10px 5px white;
     transform: scale(1.1);
 }
 

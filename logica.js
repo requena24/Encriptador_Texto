@@ -9,14 +9,12 @@ botonEncriptar.onclick = encriptar;
 botonDesencriptrar.onclick = desencriptar;
 
 function encriptar(){
-
     var area = recuperartexto()
     resultado.textContent = encriptartexto(area);
     ocultarAdelante();
 }
 
 function desencriptar(){
-
     var area = recuperartexto()
     resultado.textContent = desencriptartexto(area);
     ocultarAdelante();

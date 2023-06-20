@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #DBB953; 
+    background-color: black; 
 }
 
 header{
@@ -20,6 +20,7 @@ header{
     left: 15%;
     font-size: 30px;
     text-transform: uppercase;
+    color: white;
 }
 
 .logo{
@@ -52,12 +53,13 @@ section{
 
 .boxleft{
     width: 60%;
-    background-color: #5E90F2;
+    background-color: black;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 5px #F24B59;
+    box-shadow: 0px 0px 10px 5px white;
 }
 
 .area{
+    color: white;
     width: 80%;
     height: 70%;
     display: block;
@@ -67,7 +69,7 @@ section{
     font-size: 25px;
     border: none;
     outline: none;
-    background-color: #5E90F2;
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
     text-transform: lowercase;
 }
@@ -107,7 +109,7 @@ section{
 
 .btnencriptar:hover{
     transition-delay: 10ms;
-    box-shadow: 0px 0px 10px 5px #F24B59;
+    box-shadow: 0px 0px 10px 5px white;
     transform: scale(1.1);
 }
 
@@ -119,7 +121,7 @@ section{
 
 .btndesencriptar:hover{
     transition-delay: 10ms;
-    box-shadow: 0px 0px 10px 5px #F24B59;
+    box-shadow: 0px 0px 10px 5px white;
     transform: scale(1.1);
 }
 
@@ -137,11 +139,11 @@ section{
 
 .boxright{
     width: 30%;
-    background-color: #5E90F2;
+    background-color: black;
     border-radius: 20px;
     box-sizing: border-box;
     overflow: hidden;
-    box-shadow: 0px 0px 10px 5px #F24B59;
+    box-shadow: 0px 0px 10px 5px white;
 }
 
 .ocultar{
@@ -159,6 +161,7 @@ section{
 }
 
 .textleft{
+    color: white;
     width: 100%;
     height: 20%;
     text-align: center;
@@ -167,11 +170,12 @@ section{
 }
 
 .parrafoleft{
+    color: white;
     width: 100%;
     height: 20%;
     text-align: center;
     font-size: 16px;
-    color: #2A2B2B;
+    color: white;
     position: relative;
     bottom: 50px;
 }
@@ -196,6 +200,7 @@ section{
     display: block;
     overflow: hidden;
     text-transform: lowercase;
+    color: white;
 }
 
 .copiar{
@@ -235,6 +240,7 @@ footer{
     font-size: 15px;
     padding-right: 15px;
     padding-top: 5px;
+    color: white;
 }
 
 .linkedin{
